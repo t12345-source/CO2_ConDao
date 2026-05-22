@@ -31,6 +31,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
           
-          git add hcm_air_quality_log.xlsx
+          git add CO2_ConDao.xlsx
           
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Bổ sung dữ liệu không khí ngày hôm qua" && git push)
