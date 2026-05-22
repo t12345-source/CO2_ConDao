@@ -33,4 +33,4 @@ jobs:
           
           git add CO2_ConDao.xlsx
           
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Bổ sung dữ liệu không khí ngày hôm qua" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Bổ sung dữ liệu CO2" && git push)
